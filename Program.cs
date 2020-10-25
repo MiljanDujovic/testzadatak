@@ -76,7 +76,7 @@ namespace testzadatak {
 	//		}
 
 	//	}
-	//	internal void Stanje() { 
+	//	internal void Stanje() { adsfsdfasdfasd
 
 	//	}
 	//}
