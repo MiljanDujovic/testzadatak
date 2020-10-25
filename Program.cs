@@ -83,7 +83,7 @@ namespace testzadatak {
 
 	class Program {
 		static void Main(string[] args) {
-			Console.WriteLine("Narucite hranu i pice: \nZa izlazak pritisnite ESCAPE, za porudzbinu stisnite ENTER");
+			Console.WriteLine("Narucite hranu i pice: \nZa izlazak pritisnite ESCAPE, za unos stisnite ENTER");
 			while (Console.ReadKey().Key != ConsoleKey.Escape) {
 
 				new Porudzbina(new Hrana(Console.ReadLine()), new Pice(Console.ReadLine(), Convert.ToDouble(Console.ReadLine())));
